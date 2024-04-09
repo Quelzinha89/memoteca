@@ -1,0 +1,46 @@
+.citacoes-filosoficas {
+  padding: 2rem 0;
+}
+
+.citacoes-filosoficas form {
+  background: #C4EDFF;
+
+  border: none;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+}
+
+.citacoes-filosoficas form label {
+  color: #154580;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.citacoes-filosoficas form .input {
+  border: none;
+  height: 40px;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+
+.nav{
+  background: #C4EDFF;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.class-name{
+  color: white;
+}
+
+.nav-link{
+  color: white;
+}

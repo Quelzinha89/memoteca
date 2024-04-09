@@ -1,0 +1,28 @@
+
+
+<div class="container citacoes-filosoficas ff inter">
+  <div>
+     <h1>Olá {{getNomeCompleto()}}! Bem vindo ao site da {{titulo}}</h1>
+     <img mat-card-image src="../../../../assets/imagens-angular/Imagens do curso/filosofo.png"/>
+   <mat-card-content class="Card">
+    <mat-card-actions>
+
+    <button class="favorite">
+
+      <mat-icon aria-hidden="false" aria-label="Adicionar aos favoritos" svgIcon="thumbs-up"></mat-icon>
+    </button>
+  </mat-card-actions>
+    </mat-card-content>
+  </div>
+
+ <div>
+  <form>
+      <label for="pensamento">Pensamento</label>
+        <input
+          type="textarea"
+          class="input"
+          id="pensamento"
+          name="pensamento"
+          placeholder="Digite o pensamento">
+  </form>
+  </div>
