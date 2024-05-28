@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { FormsModule,ReactiveFormsModule  } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-criar-pensamento',
   standalone: true,
-  imports: [],
+  imports: [FormsModule,ReactiveFormsModule,RouterModule],
   templateUrl: './criar-pensamento.component.html',
   styleUrl: './criar-pensamento.component.css'
 })
@@ -13,8 +17,10 @@ export class CriarPensamentoComponent {
     id:'1',
     conteudo:'Aprendendo Angular',
     autoria:'Dev',
-    modelo: ''
+    modelo: 'modelo1'
   }
+
+
 
   constructor (){}
 
@@ -22,6 +28,17 @@ export class CriarPensamentoComponent {
 
 
   }
+
+
+
+  criarPensamento(){
+
+  alert("Novo Pensamento criado")
+}
+
+excluirPensamento(){
+  alert("Pensamento Excluido")
+}
 
 }
 
